@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shu | Front End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">Shu U.</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="tag">Web Developer</span>
+                <h1>Hi, I am <span class="highlight">Shuneba Uzo</span></h1>
+                <div class="subtitle">FRONT END <br><strong>WEB DEVELOPER</strong></div>
+                <p class="description">
+                    
+                </p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <div class="image-content">
+                        <i class="fas fa-code"></i>
+                        <h3>Front End Web Developer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a passionate Front End Web Developer with expertise in creating modern, responsive web applications. 
+                    My approach combines technical skills with creative problem-solving to deliver high-quality solutions. 
+                    With a strong foundation in frontend technologies, I build seamless digital experiences 
+                    that meet user needs and business objectives.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>++</h3>
+                        <p>Projects Completed</p>
+                    </div>
+              
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>FRONTEND</h3>
+                    <p>HTML5, CSS3, JavaScript, Responsive Layouts</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>UI/UX DESIGN</h3>
+                    <p>Figma, Wireframing, Prototyping, User-Centered Design</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-atom"></i>
+                    <h3>REACT</h3>
+                    <p>Components, Props & State, Hooks, Routing, API Integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Feel free to reach out for collaborations, job opportunities, or just to say hello!</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>shunebauzoechina@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+2347025825718</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Enugu, Nigeria</span>
+                        </li>
+                    </ul>
+                    <div class="contact-note">
+                        <p><i class="fas fa-clock"></i> Response time: Within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="color: white;">SHUNEBA</div>
+                <div class="social-links">
+                    <a href="https://github.com/uzo-JUN"><i class="fab fa-github"></i></a>
+                    <a href="https://dribbble.com/Shuneba"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://wa.me/+2347025825718"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
